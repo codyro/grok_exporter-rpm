@@ -14,6 +14,7 @@ Source2:        config.yml
 
 BuildRequires:  git
 BuildRequires:  golang
+BuildRequires:  oniguruma-devel
 BuildRequires:  systemd-rpm-macros
 
 Provides:       %{name} = %{version}
