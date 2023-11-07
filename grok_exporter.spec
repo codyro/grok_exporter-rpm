@@ -25,8 +25,9 @@ Export Prometheus metrics from arbitrary unstructured log data.
 %autosetup
 
 %build
-%configure
-%make_build
+git submodule update --init --recursive
+go install .
+
 
 %pre
 useradd \
