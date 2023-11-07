@@ -66,5 +66,5 @@ go test -v ./...
 
 
 %changelog
-* Mon Nov 07 2023 Cody Robertson <cody@nerdymuffin.com> - 1.0.0.RC5-1
+* Tue Nov 07 2023 Cody Robertson <cody@nerdymuffin.com> - 1.0.0.RC5-1
 - Initial build
