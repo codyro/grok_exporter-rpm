@@ -1,0 +1,14 @@
+[Unit]
+Description=Grok Exporter
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=grok_exporter
+Group=grok_exporter
+Type=simple
+ExecStart=/usr/bin/grok_exporter -config /etc/grok_exporter/config.yml
+
+[Install]
+WantedBy=multi-user.target
+
